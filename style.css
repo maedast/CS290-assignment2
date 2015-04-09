@@ -1,0 +1,20 @@
+tbody td:first-child {
+  font-style:italic;
+}
+
+tbody td:nth-child(2) {
+  color: red;  
+}
+
+tbody td:nth-child(4) {
+  color: blue;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #B4EEB4;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #ADD8E6;
+}
+
