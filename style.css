@@ -21,3 +21,22 @@ tbody tr:nth-child(even) {
 dt:hover + dd {
   background-color: purple;
 }
+
+.outer-content {
+  margin-top: 20px;
+  width: 75%;
+  background-color: #FF87C3;
+}
+
+.inner-content {
+  background-color: #ADD8E6;
+  width: 75%;
+  margin: 0 auto; /*http://stackoverflow.com/questions/1423651/center-div-inside-another-100-width-div */
+  text-align: center;
+}
+
+img {
+  float: left;
+  height: 125px;
+  width: 100px;
+}
